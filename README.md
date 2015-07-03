@@ -1,2 +1,3 @@
 # shell-scripts
-Useful shell scripts for deployment MySQL from source code 
+Useful shell scripts for Linux system
+ mysql_deploy.sh  #Deployment MySQL from source code
