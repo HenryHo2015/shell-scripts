@@ -1,0 +1,7 @@
+#ignore C Object files
+*.o
+*.ko
+*.obj
+
+#ignore debug directory
+debug/ 

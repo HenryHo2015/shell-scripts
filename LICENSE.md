@@ -1,0 +1,1 @@
+Copyleft version 2
