@@ -1,7 +1,6 @@
 #!/bin/bash
 #Filename: mysql_deploy.sh
 #Version:1.0
-#Author:Henry
 
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin
 export PATH
