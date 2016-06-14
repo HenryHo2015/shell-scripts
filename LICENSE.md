@@ -1,1 +1,1 @@
-Copyleft version 2
+Copyleft version 3
