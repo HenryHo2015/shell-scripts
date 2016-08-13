@@ -1,4 +1,5 @@
 #!/bin/bash
+#Describe:Get CPU Virtualization type
 
 cpu_support_vtype()
 {
