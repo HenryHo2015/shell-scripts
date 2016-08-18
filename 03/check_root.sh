@@ -14,3 +14,5 @@ fi
 }
 
 check_root
+
+unset check_root
