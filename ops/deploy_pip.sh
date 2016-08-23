@@ -1,3 +1,7 @@
+#!/bin/bash
+#Describe:Deploy python pip automaticly
+#Usage:./deploy_pip.sh
+
 rpm_deploy()
 {
 rpm -iUvh http://dl.fedoraproject.org/pub/epel/7/x86_64/e/epel-release-7-5.noarch.rpm
@@ -21,7 +25,8 @@ show_help()
 pip --help
 }
 
-show_banner() {
+show_main_menu() 
+{
 echo "*****************************************"
 echo "*  1.Deploy pip via EPEL                *"
 echo "*  2.Install pip via curl               *"
@@ -30,16 +35,16 @@ echo "*  4.Getting started                    *"
 echo "*****************************************"
 }
 
-show_banner
+show_main_menu
 read -p "Please enter your choice:" i
 case $i in
-1)
+1|d|D)
 	rpm_deploy;;
-2)
+2|i|I)
 	curl_deploy;;
-3)
+3|v|V)
 	verify_pip;;
-4)
+4|g|G)
 	show_help;;
 *)
 	echo "Please enter the correct number."
