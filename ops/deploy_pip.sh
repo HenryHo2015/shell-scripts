@@ -1,6 +1,8 @@
 #!/bin/bash
 #Describe:Deploy python pip automaticly
 #Usage:./deploy_pip.sh
+#Author:Henry Ho
+#Version:1.0
 
 rpm_deploy()
 {
