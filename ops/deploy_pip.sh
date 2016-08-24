@@ -24,7 +24,7 @@ pip -V
 
 show_help()
 {
-pip --help
+pip --help | more
 }
 
 show_main_menu() 
